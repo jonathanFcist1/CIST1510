@@ -1,0 +1,106 @@
+*{
+    margin:0;
+}
+
+h1{
+    border-bottom: 5px double rgb(91, 24, 91);
+    padding-bottom:20px;
+    font-size:400%;
+}
+
+#logo{
+    float:right;
+    border:5px solid rgb(91, 24, 91);
+}
+#page2{
+    padding-left:2%;
+}
+/*separates head from the body*/
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:1496px;
+    height:642px;
+    background-color:rgb(197, 197, 120);
+    color: rgb(91, 24, 91);
+}
+
+#sub1{
+    width:850px;
+    font-size: 200%;
+    padding-top:3%;
+    text-align:center;
+}
+
+#motto, #tips{
+    padding-top:3%;
+}
+#motto li{
+    margin-top:3%;
+    list-style-type:square;
+}
+#contactlist li{
+   margin-top:3%;
+    list-style-type: circle;
+}
+#tips li{
+    margin-top:4%;
+}
+
+#blockquote{
+    font-size:106%;
+}
+#nav_menu{
+    width:300px;
+    float:left;
+    padding-top:20px;
+}
+
+#nav_menu ul li{
+    width:150px;
+    height:50px;
+    font-size:240%;
+    padding:23px;
+    border:5px solid rgb(91, 24, 91);
+    border-radius:20px 20px 20px 20px;
+    margin-top:6%;
+    text-decoration:none;
+}
+a{
+    text-decoration:none;
+    color: rgb(91, 24, 91);
+}
+a:hover{
+    text-decoration:underline;
+}
+
+#maincontent{
+    width:630px;
+    height:350px;
+    float:left;
+    font-size:150%;
+}
+
+
+/* IMAGES */
+#images img {
+    float:right;
+    margin:1em;
+    border:5px solid rgb(91, 24, 91);
+
+}
+
+#imagearea{
+    width:300px;
+    height:350px;
+    float:right;
+}
+/*FOOTER*/
+footer{
+    clear:both;
+    float:right;
+    width:1496px;
+    height:50px;
+    text-align:center;
+    padding-top:5%;
+}
